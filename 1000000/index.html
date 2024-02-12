@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="flex justify-center items-center h-screen">
+        <div class="bg-white p-8 rounded shadow-lg text-center">
+            <h1 class="text-3xl font-bold mb-4">Guess the Number (1 - 1,000,000)</h1>
+            <input type="number" id="guess" class="mx-auto p-2 text-center border border-gray-300 rounded mb-4">
+            <button id="checkBtn" class="mx-auto bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Check</button>
+            <p id="result" class="text-lg mt-4"></p>
+            <p id="generatedNumber" class="text-sm text-gray-500 hidden"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
