@@ -1,5 +1,5 @@
 // Generate random number when page loads
-var randomNumber = Math.floor(Math.random() * 1000) + 1;
+var randomNumber = Math.floor(Math.random() * 1000000) + 1;
 
 document.getElementById("checkBtn").addEventListener("click", function() {
     var guess = parseInt(document.getElementById("guess").value);
